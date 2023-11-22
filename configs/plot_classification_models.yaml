@@ -1,0 +1,69 @@
+min_acc1_thresh: 80
+max_acc1_thresh: 87
+save_dir: "results"
+
+# visualization parameters
+models:
+  alexnet:
+    marker: "v"
+    color: "red"
+  convnext:
+    marker: "^"
+    color: "red"
+  densenet:
+    marker: "<"
+    color: "red"
+  efficientnet_b:
+    marker: ">"
+    color: "red"
+  efficientnet_v2:
+    marker: ">"
+    color: "green"
+  googlenet:
+    marker: "1"
+    color: "green"
+  inception_v3:
+    marker: "2"
+    color: "green"
+  maxvit_t:
+    marker: "o"
+    color: "green"
+  mnasnet:
+    marker: "s"
+    color: "blue"
+  mobilenet_v2:
+    marker: "p"
+    color: "blue"
+  mobilenet_v3:
+    marker: "P"
+    color: "blue"
+  regnet_x:
+    marker: "*"
+    color: "blue"
+  regnet_y:
+    marker: "+"
+    color: "purple"
+  resnet:
+    marker: "x"
+    color: "purple"
+  resnext:
+    marker: "v"
+    color: "purple"
+  shufflenet_v2:
+    marker: "^"
+    color: "purple"
+  squeezenet:
+    marker: "v"
+    color: "black"
+  swin:
+    marker: "<"
+    color: "black"
+  vgg:
+    marker: ">"
+    color: "black"
+  vit:
+    marker: "1"
+    color: "black"
+  wide_resnet:
+    marker: "2"
+    color: "black"
